@@ -29,4 +29,6 @@ ListNode list2 = new()
 
 Solution2 solution = new();
 
-Console.WriteLine(solution.AddTwoNumbers(list1, list2));
+var dd = solution.AddTwoNumbers(list1, list2);
+
+Console.ReadLine();
