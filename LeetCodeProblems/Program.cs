@@ -1,9 +1,11 @@
 ﻿using LeetCodeProblems.Problems;
 
 
-Solution43 solution = new();
+Solution1 solution = new();
 
+int[] nums = { 2, 5, 5, 11 };
+int target = 10;
 
-var dd = solution.Multiply("123456789", "987654321");
+var dd = solution.TwoSum(nums, target);
 
 Console.ReadLine();
