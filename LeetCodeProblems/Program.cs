@@ -1,10 +1,10 @@
 ﻿using LeetCodeProblems.Problems;
 
 
-Solution8 solution = new();
+Solution17 solution = new();
 
-string s = "   -42";
+string s = "234";
 
-var dd = solution.MyAtoi(s);
+var dd = solution.LetterCombinations(s);
 
 Console.ReadLine();
