@@ -1,10 +1,10 @@
 ﻿using LeetCodeProblems.Problems;
 
 
-Solution3 solution = new();
+Solution20 solution = new();
 
-string s = "abcabcbb";
+string s = "){";
 
-var dd = solution.LengthOfLongestSubstring(s);
+var dd = solution.IsValid(s);
 
 Console.ReadLine();
