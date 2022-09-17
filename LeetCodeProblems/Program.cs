@@ -1,10 +1,10 @@
 ﻿using LeetCodeProblems.Problems;
 
 
-Solution20 solution = new();
+Solution217 solution = new();
 
-string s = "){";
+int[] s = { 1, 2, 3, 1 };
 
-var dd = solution.IsValid(s);
+var dd = solution.ContainsDuplicate(s);
 
 Console.ReadLine();
